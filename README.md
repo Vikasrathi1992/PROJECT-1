@@ -49,3 +49,7 @@ The kappa of the logistic regression model is: 0.79
 
 ## Conclusion
 The Model with Random Forest gave the best results so it will be used in the business case to predict insight into why some bank customers accept credit card offers.
+
+## Visualisation 
+The data is loaded in Tableau to be analysed for the depedency of the columns , plotting different chart to understand and analyse the pattern.
+Everything is then put in a dashboard that is to be presented for the Business case with all the appropriate details and information that can be used by user to understand the data. 
