@@ -1,15 +1,15 @@
-# PROJECT-1
+# Introduction
 The Project is based on the analysis of credit card services which is a very important source of revenue for the bank.The bank wants to understand the demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card.
 
 The Purpose of the project is to build a model that will provide insight into why some bank customers accept credit card offers.
 
-## Execution 
+# Execution 
 
-# Step 1
+## Step 1
 The raw data that was provided by the bank is checked using Structured Query Language (SQL) to check the data types, abnormilties in the data, Number of records, Null Values and how to handle them.
 Once the data is examined it is transferred to Jupyter Lab and will be accessed further using Python as the primary language.
 
-# Step 2
+## Step 2
 Once the data set has been loaded in the Jupyter notebook, it is again accessed for data types and other characteristics.
 The data is seperated into two categories - Categorical and Numerical and based on the data types the raw data is fit in the created category.
 The target variable is checked for imbalance bt using the #data.value.counts()
@@ -19,7 +19,7 @@ Both Categorical and Numerical Dataset is ploted to have a visiual inspection by
 The Categorial Data is dummified using #getdummies to be used in the model.
 The Numerial Data is check for multicollinearity using the #heatmap.
 
-# Step 3
+## Step 3
 A new table is created by adding cleaned Numerical Data and Dummified Categorical Data.
 The independet and dependent vairbales are now created to be put for X-Y split tesitng
 
@@ -47,9 +47,9 @@ The kappa of the logistic regression model is: 0.86
 The accuracy of the logistic_regression model is: 0.89 
 The kappa of the logistic regression model is: 0.79 
 
-## Conclusion
+# Conclusion
 The Model with Random Forest gave the best results so it will be used in the business case to predict insight into why some bank customers accept credit card offers.
 
-## Visualisation 
-The data is loaded in Tableau to be analysed for the depedency of the columns , plotting different chart to understand and analyse the pattern.
+# Visualisation 
+The data is loaded in Tableau to be analysed for the depedency of the columns , plotting different chart to understand and analyse the pattern and create a list of analytical tools to make a user friendly and interactive dashboard.
 Everything is then put in a dashboard that is to be presented for the Business case with all the appropriate details and information that can be used by user to understand the data. 
