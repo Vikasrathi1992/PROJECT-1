@@ -30,22 +30,24 @@ The Kapa of your model is:  -0.001
 
 ### Second Model (SMOTE - Oversampling)
 The target variable is oversampled to remove the imbalance and then fit in the model.
-The accuracy of the logistic_regression model is: 0.83 
-The kappa of the logistic regression model is: 0.66
+The Acuurancy and Kappa is 0.83 and 0.66
 
 ### Third Model (resample - Undersampling)
 The target variable is oversampled to remove the imbalance and then fit in the model.
-The accuracy of the logistic_regression model is: 0.67 
-The kappa of the logistic regression model is: 0.35 
+The Acuurancy and Kappa is 0.67 and 0.35
 
 ### Fourth Model (Random Forest Classfier using SMOTE)
 The train and test split results are fit in the model to get the result.
-The accuracy of the logistic_regression model is: 0.93 
-The kappa of the logistic regression model is: 0.86 
+The Acuurancy and Kappa is 0.93 and 0.86
 
 ### Fifth Model (KNN)
-The accuracy of the logistic_regression model is: 0.89 
-The kappa of the logistic regression model is: 0.79 
+The Acuurancy and Kappa is 0.89 and 0.79
+
+### Sixth Model (Binning)
+The Acuurancy and Kappa is 0.89 and 0.78
+
+### Seventh Model (Transfromation and Removing Outliers)
+The Acuurancy and Kappa is 0.91 and 0.82
 
 # Conclusion
 The Model with Random Forest gave the best results so it will be used in the business case to predict insight into why some bank customers accept credit card offers.
